@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Registration Form</title>
+  </head>
+  <body>
+    <a href="/"> Home </a>
+    <h1>User Registration</h1>
+    <hr />
+    <form action="">
+      <p>
+        <label for="#">Username:</label>
+        <input type="text" />
+      </p>
+      <p>
+        <label for="#">Password:</label>
+        <input type="password" />
+      </p>
+      <p>
+        <label for="#">Email:</label>
+        <input type="email" />
+      </p>
+      <p>
+        <label for="#">Phone No:</label>
+        <input type="number" />
+      </p>
+      <p>
+        <label for="#">LinkedIN:</label>
+        <input type="url" />
+      </p>
+      <p>
+        <label for="#">DOB:</label>
+        <input type="date" />
+      </p>
+      <p>
+        <label for="#">Suggestion:</label><br />
+        <textarea name="" id="" cols="10" rows="5"></textarea>
+      </p>
+      <p>
+        <label for="#">Profile picture:</label>
+        <input type="file" multiple />
+      </p>
+      <!-- radio button  -->
+      <p>
+        <label for=""> Gender </label>
+        <input type="radio" name="gender" id="" /> <label for="">Male</label>
+        <input type="radio" name="gender" id="" /><label for="">Female</label>
+        <input type="radio" name="gender" id="" /><label for="">N/A</label>
+      </p>
+      <p>
+        <label for="">What do you want to learn?</label><br />
+        <input type="checkbox" name="" id="" /><label for="">HTML</label> <br />
+        <input type="checkbox" name="" id="" /><label for="">CSS</label> <br />
+        <input type="checkbox" name="" id="" /><label for="">JavaScript</label>
+      </p>
+      <p>
+        <label for="">Fruit List</label>
+        <select name="" id="" multiple>
+          <option value="">---Please Select--</option>
+          <option value="">Mango</option>
+          <option value="">Orange</option>
+          <option value="">Kewe</option>
+          <option value="">Loli</option>
+        </select>
+      </p>
+      <p>
+        <label for="">Fruit and Veggies List</label>
+        <select name="" id="" multiple>
+          <optgroup label="fruits">
+            <option value="">Mango</option>
+            <option value="">Orange</option>
+            <option value="">Kewe</option>
+            <option value="">Loli</option>
+          </optgroup>
+        </select>
+      </p>
+
+      <!-- Data List -->
+      <p>
+        <label for="">Searchable List</label>
+        <input type="text" list="linked" />
+        <datalist id="linked">
+          <option value="Apple">Apple</option>
+          <option value="Mango">Mango</option>
+          <option value="Orange">Orange</option>
+          <option value="kewe">Kewe</option>
+          <option value="Loli">Loli</option>
+        </datalist>
+      </p>
+      <hr />
+      <p>
+        <input type="checkbox" name="" id="" /><label for=""
+          >I accept the Terms and Conditions</label
+        >
+      </p>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
