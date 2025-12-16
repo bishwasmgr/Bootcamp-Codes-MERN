@@ -1,0 +1,37 @@
+body {
+  font-size: 40px;
+}
+
+.parent {
+  background: blue;
+  padding: 20px;
+  height: 80vh;
+
+  /* flex */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.parent > div {
+  background: grey;
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+
+  /* flex */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-3 {
+  flex-grow: 1;
+}
+
+.parent > div:nth-child(even) {
+  background: red;
+  height: 150px;
+  align-self: center;
+}
