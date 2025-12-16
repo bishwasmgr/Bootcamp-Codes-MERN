@@ -1,0 +1,40 @@
+/* p {
+  color: blueviolet;
+}
+p {
+  color: rgb(86, 226, 43);
+}
+section {
+  background-color: aqua;
+}
+
+header {
+  display: flex;
+  padding: 10px;
+}
+
+header nav {
+  text-align: right;
+  background-color: aquamarine;
+}
+ */
+
+section + p {
+  color: blue;
+}
+
+P::after,
+p::before {
+  content: "😂";
+}
+
+/* pseudo class selector */
+
+a:hover {
+  font-size: 32px;
+  color: aqua;
+}
+
+p:nth-child(1) {
+  color: brown;
+}
