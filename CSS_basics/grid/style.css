@@ -1,0 +1,91 @@
+body {
+  margin: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.globle-message {
+  grid-area: w1;
+  background-color: blue;
+  min-height: 10vh;
+  font-size: 1rem;
+}
+
+.nav-bar {
+  grid-area: w2;
+  background-color: red;
+}
+
+.banner {
+  grid-area: w3;
+  background: linear-gradient(to right, red 70%, blue);
+  min-height: 20vh;
+}
+
+.sidebar-1 {
+  grid-area: w4;
+  background: purple;
+}
+
+.sidebar-2 {
+  grid-area: w5;
+  background-color: brown;
+}
+
+.left-side-menu {
+  grid-area: w6;
+  background: rgb(105, 105, 188);
+}
+
+.recent-side-menu {
+  grid-area: w7;
+}
+.tag-side-menu {
+  grid-area: w8;
+}
+
+.right-side-product {
+  grid-area: w9;
+  background: radial-gradient(red, purple);
+  min-height: 30vh;
+}
+
+footer {
+  grid-area: w10;
+  background: black;
+  min-height: 10vh;
+}
+
+.main-body {
+  display: grid;
+  gap: 5px;
+  grid-template-areas:
+    "w1 w1"
+    "w2 w2"
+    "w3 w4"
+    "w3 w5"
+    "w6 w9"
+    "w7 w9"
+    "w8 w9"
+    "w10 w10";
+}
+
+@media (max-device-width: 530px) {
+  .main-body {
+    display: grid;
+    gap: 5px;
+    grid-template-areas:
+      "w1"
+      "w2"
+      "w3"
+      "w4"
+      "w5"
+      "w6"
+      "w7"
+      "w8"
+      "w9"
+      "w10";
+  }
+}
