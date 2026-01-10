@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+.hero-section {
+  position: relative;
+  display: flex;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.message {
+  background: grey;
+  position: fixed;
+  left: 100px;
+  bottom: 40%;
+  width: 400px;
+  height: 200px;
+  padding: 1rem;
+}
